@@ -105,7 +105,7 @@ def totalscore(state):
         count_4comp += line.count("011110")
         count_3comp += line.count("01110")
         count_2comp += line.count("0110")
-    score = (count_4comp * 100) + (count_4comp_1 * 50) + (count_3comp * 20) + (count_2comp) - (count_4human * 100) - (count_4human_1 *50) - (count_3human * 20) - count_2human
+    score = (count_4comp * 500) + (count_4comp_1 * 300) + (count_3comp * 100) + (count_2comp * 20) - (count_4human * 500) - (count_4human_1 *300) - (count_3human * 100) - count_2human * 20
 
     return score
 
